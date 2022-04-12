@@ -1,0 +1,5 @@
+
+- Colocar borda só externa e algumas internas para mexer mais no tamanho;
+
+- Usar algo que ajude a controlar o tamanho da div filho dentro da div pai.
+
