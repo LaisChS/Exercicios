@@ -1,0 +1,31 @@
+.principal {
+    width: 940px;
+    height: 500px;
+    border: 2px solid #000000;
+    margin: 0 auto;
+}
+
+.topo {
+    height: 100px;
+    border: 2px solid black;
+}
+
+.coluna_esquerda {
+    width: 292px;
+    height: 320px;
+    border: 2px solid black;
+    float:left;
+}
+
+.coluna_direita {
+    width: 640px;
+    height: 320px;
+    border: 2px solid black;
+    float: right;
+}
+
+.rodape {
+    height: 70px;
+    border: 2px solid black;
+    clear: right;
+}
