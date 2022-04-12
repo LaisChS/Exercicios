@@ -1,13 +1,18 @@
+body{
+    background: #cccccc;
+}
+
 .principal {
     width: 940px;
     height: 500px;
-    border: 2px solid #000000;
+    background: white;
     margin: 0 auto;
 }
 
 .topo {
-    height: 100px;
-    border: 2px solid black;
+    height: 75px;
+    border: 15px solid #fffa0b;
+    background: #0099ff;
 }
 
 .coluna_esquerda {
@@ -25,7 +30,8 @@
 }
 
 .rodape {
-    height: 70px;
-    border: 2px solid black;
+    height: 55px;
+    border: 15px solid #fffa0b;
+    background: #0099ff;
     clear: right;
 }
