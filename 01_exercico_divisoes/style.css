@@ -7,11 +7,12 @@ body{
     height: 500px;
     background: white;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .topo {
-    height: 75px;
-    border: 15px solid #fffa0b;
+    height: 70px;
+    border: 10px solid #fffa0b;
     background: #0099ff;
 }
 
@@ -19,7 +20,23 @@ body{
     width: 292px;
     height: 320px;
     border: 2px solid black;
+    margin: 10px 0;
     float:left;
+}
+
+.esquerda_bloco_01 {
+    border: 2px solid red;
+    height: 150px;
+}
+
+.esquerda_bloco_02 {
+    border: 2px solid red;
+    height: 60px;
+}
+
+.esquerda_bloco_03 {
+    border: 2px solid red;
+    height: 100px;
 }
 
 .coluna_direita {
@@ -27,11 +44,12 @@ body{
     height: 320px;
     border: 2px solid black;
     float: right;
+    margin: 10px 0;
 }
 
 .rodape {
-    height: 55px;
-    border: 15px solid #fffa0b;
+    height: 30px;
+    border: 10px solid #fffa0b;
     background: #0099ff;
     clear: right;
 }
