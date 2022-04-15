@@ -26,6 +26,7 @@ body{
     background: blue;
 }
 
+/* COLUNA ESQUERDA*/
 .coluna_esquerda {
     width: 30%;
     height: 400px;
@@ -33,11 +34,51 @@ body{
     background: pink;
 }
 
+.esquerda_bloco_01 {
+    width: 100%;
+    height: 210px;
+    border: 1px solid black;
+}
+
+.esquerda_bloco_02 {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.esquerda_bloco_03 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+/* COLUNA DIREITA*/
 .coluna_direita {
     width: 69.5%;
     height: 400px;
     display: inline-block;
     background: red;
+}
+
+.direita_bloco_01 {
+    width: 100%;
+    height: 130px;
+    border: 1px solid black;
+}
+
+.direita_bloco_02 {
+    width: 100%;
+    height: 160px;
+    border: 1px solid black;
+    background: gray;
+}
+
+.direita_bloco_03 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background: green;
 }
 
 .rodape {
