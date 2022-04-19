@@ -12,6 +12,6 @@ de acordo com o conhecimento adquirido nas plataformas que me inscrevi.
 
 # Referências
 
-- Dentro das pastas de exercícios
+- Dentro das pastas dos exercícios
 
 
