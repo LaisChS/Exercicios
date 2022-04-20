@@ -1,5 +1,5 @@
 body {
-    background: #D3D3D3;
+    background: #e4e9f1;
 }
 
 .container {
@@ -7,12 +7,47 @@ body {
     height: 645px;
     background: white;
     margin: 0 auto;
+    padding: 15px 50px 0;
+    box-sizing: border-box;
 }
 
 header {
     width: 100%;
     height: 150px;
-    background: green;
+}
+
+.logo {
+    width: 185px;
+    height: 120px;
+    display: inline-block;
+}
+
+nav {
+    width: 580px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+}
+
+.menu li {
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5e7aa7;
+    text-transform: uppercase;    
+    padding: 20px 15px;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: #FFFFFF;
+    background: #5e7aa7;
 }
 
 main {
@@ -23,6 +58,6 @@ main {
 
 footer{
     width: 100%;
-    height: 95px;
+    height: 80px;
     background: blue;
 }
