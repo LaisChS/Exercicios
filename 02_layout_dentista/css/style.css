@@ -1,10 +1,11 @@
 body {
+    font-family: 'Roboto', sans-serif;
     background: #e4e9f1;
 }
 
 .container {
     width: 960px;
-    height: 645px;
+    height: 845px;
     background: white;
     margin: 0 auto;
     padding: 15px 50px 0;
@@ -40,6 +41,7 @@ nav {
 .menu a {
     text-decoration: none;
     color: #5e7aa7;
+    font-weight: bold;
     text-transform: uppercase;    
     padding: 20px 15px;
     transition: 0.5s;
@@ -52,12 +54,62 @@ nav {
 
 main {
     width: 100%;
-    height: 400px;
+    height: 600px;
     background: pink;
+}
+
+section {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+section h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #5e7aa7;
+    font-weight: 800;
+    margin: 20px 0 15px;
+}
+
+.conteudo {
+    width: 60%;
+    height: 300px;
+    display: inline-block;
+}
+
+.conteudo p {
+    margin: 10px 20px 10px 0;
+}
+
+.conteudo strong {
+    font-weight: bold;
+}
+
+.alinhar_esquerda{
+    float: left;
+}
+
+.alinhar_direita{
+    float: right;
+}
+
+.imagem {
+    width: 40%;
+    height: 300px;
+    background: yellow;
+    display: inline-block;
 }
 
 footer{
     width: 100%;
     height: 80px;
-    background: blue;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+    background: #c5cedf;
 }
