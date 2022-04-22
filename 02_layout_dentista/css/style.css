@@ -1,10 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #e4e9f1;
 }
 
 .container {
-    width: 960px;
+    width: 100%;
     height: 845px;
     background: white;
     margin: 0 auto;
@@ -32,7 +31,7 @@ nav {
 }
 
 .menu li {
-    width: 140px;
+    width: 135px;
     height: 50px;
     text-align: center;
     display: inline-block;
@@ -55,47 +54,85 @@ nav {
 main {
     width: 100%;
     height: 600px;
-    background: pink;
 }
 
 section {
     width: 100%;
     height: 300px;
-    border: 1px solid black;
+    border-top: 1px solid #5e7aa7;
+    border-bottom: 1px solid #5e7aa7;
+}
+
+section:last-child {
+    border-top: none;
 }
 
 section h1 {
-    font-size: 64px;
+    font-size: 74px;
     text-transform: uppercase;
     color: #5e7aa7;
     font-weight: 800;
     margin: 20px 0 15px;
 }
 
-.conteudo {
-    width: 60%;
-    height: 300px;
-    display: inline-block;
+section h2 {
+    font-size: 20px;
+    color: #5e7aa7;
+    font-weight: 500;
+    margin: 20px 0 15px;
 }
 
-.conteudo p {
+section p {
+    color: #8e8a8a;
+    text-align: justify;
     margin: 10px 20px 10px 0;
 }
 
-.conteudo strong {
-    font-weight: bold;
+
+.conteudo_principal {
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.conteudo_principal strong {
+    font-weight: bold;    
+}
+
+.conteudo_secundario {
+    width: 70%;
+    height: 300px;
+    display: inline-block;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 
 .alinhar_esquerda{
     float: left;
+    margin-left: 10px;
 }
 
 .alinhar_direita{
     float: right;
 }
 
-.imagem {
+.imagem_principal {
     width: 40%;
+    height: 300px;
+    background: yellow;
+    display: inline-block;
+    margin-left: 105px;
+}
+
+.imagem_principal img, .imagem_secundaria img {
+    width: 100%;
+    height: 300px;
+}
+
+.imagem_secundaria {
+    width: 29%;
     height: 300px;
     background: yellow;
     display: inline-block;

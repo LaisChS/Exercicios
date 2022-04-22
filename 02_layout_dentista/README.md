@@ -15,3 +15,7 @@
 ## Semântica
 
 https://www.w3schools.com/html/html5_semantic_elements.asp
+
+## Material de apoio
+
+https://fonts.google.com/
