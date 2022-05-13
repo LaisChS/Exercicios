@@ -22,7 +22,7 @@ header {
 }
 
 nav {
-    width: 415px;
+    width: 332px;
     height: 50px;
     display: inline-block;
     float: right;
@@ -30,7 +30,7 @@ nav {
 }
 
 .menu li {
-    width: 100px;
+    width: 80px;
     height: 50px;
     text-align: center;
     display: inline-block;
@@ -53,13 +53,9 @@ main {
     height: 500px;
 }
 
-section {
-    width: 100%;
-    height: 300px;
-}
-
 section:last-child {
-    margin-left: 90px;
+    margin-left: 74px;
+    width: 40%;
 }
 
 section h1 {
@@ -88,17 +84,12 @@ section p {
     width: 50%;
     height: 300px;
     display: inline-block;
-    padding-left: 10px;
     box-sizing: border-box;
+    vertical-align: top;
 }
 
 .conteudo_destaque strong {
     font-weight: bold;    
-}
-
-.alinhar_esquerda{
-    float: left;
-    margin-left: 10px;
 }
 
 .destaque {
@@ -120,8 +111,8 @@ section p {
 }
 
 .conteudo {
-    width: 45%;
-    height: 150px;
+    width: 52%;
+    height: 200px;
     display: inline-block;
     vertical-align: top;
 }
