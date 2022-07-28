@@ -1,1 +1,50 @@
-body { background: red;}
+body { 
+    background: red;
+}
+
+.conteudo {    
+    width: 920px;
+    height: 740px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid black;
+}
+
+header {
+    width: 100%;
+    height: 380px;
+    background: gray;
+    border: 1px solid black;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background: plum;
+    border: 1px solid black;
+}
+
+article {
+    width: 680px;
+    height: 250px;
+    background: lightcoral;
+    border: 1px solid black;
+    float: left;                     /*certo?*/
+    margin-bottom: 50px;            /*melhorar?*/
+}
+
+aside {
+    width: 230px;
+    height: 250px;
+    background: yellow;
+    border: 1px solid black;
+    float:right;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+    background: plum;
+    border: 1px solid black;
+    clear: both;
+}
