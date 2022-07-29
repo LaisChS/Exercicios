@@ -7,46 +7,12 @@ body {
     height: 740px;
     margin: 0 auto;
     background: white;
-    border: 1px solid black;
 }
 
 header {
     width: 100%;
-    height: 380px;
-    position: relative;
-}
-
-nav {
-    width: 100%;
     height: 70px;
-    background-image: url("../img/topo.JPG");
-    background-repeat: repeat-x;
     position: relative;
-}
-
-.menu ul {
-    width: 85%;
-    height: 30px;
-    float: right;
-}
-
-.menu li {
-    width: 140px;
-    height: 70px;
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    padding: 20px 10px;
-    box-sizing: border-box;    
-}
-
-.menu a {
-    text-decoration: none;
-    color: white;
-}
-
-.menu a:hover {
-    text-decoration: underline;
 }
 
 .logo {
@@ -54,36 +20,79 @@ nav {
     height: 154px;
     position: absolute;
     top: 0;
-    left: 20px;
+    left: 10px;    
+}
+
+.conteudo-meio {
+    width: 100%;
+    height: 620px;
 }
 
 .banner {
     width: 100%;
     height: 300px;
     border-bottom: 5px solid #BBA6E7;
+    margin-bottom: 25px;
 }
 
-article {
+.destaque {
     width: 680px;
-    height: 250px;
-    background: lightcoral;
-    border: 1px solid black;
-    float: left;                     /*certo?*/
-    margin-bottom: 50px;            /*melhorar?*/
+    height: 260px;
+    float: left;
 }
 
-aside {
+.destaque h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #39256a;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 10px 0;
+}
+
+.destaque img {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.texto-destaque {    
+    width: 370px;
+    height: 200px;
+    font-size: 16px;
+    float: right;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #8c8c8c;
+    text-align: left;
+}
+
+.texto-secundario {
     width: 230px;
-    height: 250px;
-    background: yellow;
-    border: 1px solid black;
-    float:right;
+    height: 260px;
+    float: right;
+    padding: 0 15px;
+    font-size: 13px;
+    font-style: italic;
+    border-left: 2px solid #e5ddf5;
+    box-sizing: border-box;
+}
+
+.texto-secundario h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #39256a;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 10px 0;
 }
 
 .rodape {
     width: 100%;
     height: 50px;
-    background: plum;
-    border: 1px solid black;
+    background: #e5ddf5;
     clear: both;
 }
