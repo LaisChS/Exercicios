@@ -1,17 +1,17 @@
 
-### Objetivo ###
+# Objetivo
 
 - Exercitar com elementos básicos, para começar a dar os primeiros passos.
 
 
 
-### Passos ###
+# Passos
 
 - Usar algo que ajude a controlar o tamanho da div filho dentro da div pai (que não altere o pai quando usar padding no filho, por exemplo); -- ok. box-sizing: border-box;
 
 
 
-### Referências
+# Referências
 
 ## Como usar o display: inline (possui link para as outras propriedades)
 

@@ -1,131 +1,129 @@
 body{
     background: #cccccc;
-    margin: 0;
 }
 
-.container {
+* {
+    box-sizing:border-box;
+}
+
+#container {
     width: 940px;
     height: 620px;  
-    background: white;
-    margin: 0 auto;
+    background-color: #fff;
+    margin: auto;
     padding: 10px;
-    box-sizing: border-box;
 }
 
-.topo {
-    width: 100%;
+#topo {
+    width: 920px;
     height: 100px;
     border: 10px solid #fdfd00;
-    background: #0099ff;
-    box-sizing: border-box;
+    background-color: #0099ff;
 }
 
-.meio {
-    width: 100%;
+#meio {
+    width: 920px;
     height: 420px;
     margin: 10px 0;
+    display: inline-flex;
 }
 
-/* COLUNA ESQUERDA*/
-.coluna_esquerda {
-    width: 28.9%;
+/* LADO ESQUERDO */
+
+#coluna_esquerda {
+    width: 265px;
     height: 420px;
     display: inline-block;
     padding-right: 10px;
 }
 
-.esquerda_bloco_01 {
-    width: 100%;
+#esquerda_bloco_01 {
+    width: 255px;
     height: 220px;
     border: 10px solid #669bcd;
-    box-sizing: border-box;
 }
 
 .bloco_01_item {
-    width: 100%;
+    width: 235px;
     height: 50px;
     border-bottom: 10px solid #669bcd;
-    background: #fefe9c; 
-    box-sizing: border-box;
+    background-color: #fefe9c;
 }
 
 .bloco_01_item:last-child {
     border-bottom: none;
 }
 
-.esquerda_bloco_02 {
-    width: 100%;
+#esquerda_bloco_02 {
+    width: 255px;
     height: 70px;
-    background: #0099ff;
+    background-color: #0099ff;
     margin-top: 10px;
 }
 
-.esquerda_bloco_03 {
-    width: 100%;
+#esquerda_bloco_03 {
+    width: 255px;
     height: 110px;
-    background: #FFFFFF;
+    background-color: #fff;
     margin-top: 10px;
 }
 
 
-/* COLUNA DIREITA*/
-.coluna_direita {
-    width: 69.5%;
+/* LADO DIREITO */
+#coluna_direita {
+    width: 650px;
     height: 420px;
     display: inline-block;
 }
 
-.direita_bloco_01 {
-    width: 100%;
+#direita_bloco_01 {
+    width: 650px;
     height: 120px;
 }
 
-.direita_bloco_01 > div {
-    width: 49%;
+#direita_bloco_01 > div {
+    width: 319px;
     height: 120px;
-    display: inline-block;
-    box-sizing: border-box;    
+    display: inline-block; 
     background: #feff99;
 }
 
-.direita_bloco_01> div:last-child {
+#direita_bloco_01> div:last-child {
     margin-left: 8px;
 }
 
-.direita_bloco_02 {
-    width: 100%;
+#direita_bloco_02 {
+    width: 650px;
     height: 170px;
     background: #669acc;
     border: 10px solid #fcff9c;
-    box-sizing: border-box;
     margin: 10px 0;
 }
 
-.direita_bloco_03 {
-    width: 100%;
+#direita_bloco_03 {
+    width: 650px;
     height: 110px;
 }
 
-.direita_bloco_03 > div {
-    width: 32.5%;
+#direita_bloco_03 > div {
+    width: 240px;
     height: 110px;
     display: inline-block;
-    box-sizing: border-box;
     background: #009afd;
 }
 
-.direita_bloco_03 > div:first-child {
-    margin-right: 3.5px;
+#direita_bloco_03 > div:last-child {
+    width: 147px;
+    margin-left: 7.5px;
 }
 
-.direita_bloco_03 > div:last-child {
-    margin-left: 3.5px;
+#direita_bloco_03 > div:first-child {
+    margin-right: 7.5px;
 }
 
-.rodape {
-    width: 100%;
+#rodape {
+    width: 920px;
     height: 60px;
     border: 10px solid #fdfd00;
     background: #0099ff;
-    box-sizing: border-box;
 }
