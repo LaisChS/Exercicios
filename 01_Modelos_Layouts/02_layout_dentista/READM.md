@@ -1,4 +1,3 @@
-
 ### Objetivo ###
 
 - Criar um layout simples, com o foco na semântica.
@@ -10,12 +9,13 @@
 - Usar outras fotos, pois foram pegas de um curso.
 
 
+
 ### Referências
 
 ## Semântica
 
-https://www.w3schools.com/html/html5_semantic_elements.asp
+- [**HTML5 Semantic**](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ## Material de apoio
 
-https://fonts.google.com/
+- [**Google Fonts**](https://fonts.google.com/)
