@@ -14,8 +14,8 @@
 
 ## Semântica
 
-- [**HTML5 Semantic**](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [HTML5 Semantic](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 ## Material de apoio
 
-- [**Google Fonts**](https://fonts.google.com/)
+- [Google Fonts](https://fonts.google.com/)

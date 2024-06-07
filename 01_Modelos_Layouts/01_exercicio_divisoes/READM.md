@@ -15,9 +15,9 @@
 
 ## Como usar o display: inline (possui link para as outras propriedades)
 
-[**Medium**](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-4ccb7b77371d#.2wc40fld6)
+- [Medium](https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-4ccb7b77371d#.2wc40fld6)
 
 
 ## Css - box-sizing: como adaptar as dimensões de um elemento para incorporar os valores de border e padding
 
-[**Devmedia**](https://www.devmedia.com.br/css-box-sizing/36830)
+- [Devmedia](https://www.devmedia.com.br/css-box-sizing/36830)
