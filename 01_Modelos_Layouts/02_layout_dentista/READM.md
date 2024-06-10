@@ -19,3 +19,5 @@
 ## Material de apoio
 
 - [Google Fonts](https://fonts.google.com/)
+
+- [Como utilizar a técnica CSS Reset](https://www.devmedia.com.br/como-utilizar-a-tecnica-css-reset/26797)
