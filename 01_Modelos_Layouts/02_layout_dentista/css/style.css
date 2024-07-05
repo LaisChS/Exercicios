@@ -1,35 +1,43 @@
 
 body {
-    background-color: red;
     font-family:"Trebuchet MS", Tahoma, Verdana;
 	font-size:16px;
+}
+
+p {
+    text-align: justify;
+    color: #b9b9b9;
 }
 
 main {
     width: 1024px;
     height: 640px;
-    background-color: yellow;
     margin: 0 auto;
 }
 
 header {
-    width: 100%;
-    height: 200px;
-    background-color: green;
+    width: 770px;
+    height: 100px;
     display: block;
+    margin: 0 auto;
 }
 
 #logo {
     width: 200px;
-    height: 120px;
+    height: 90px;
     float: left;
+    padding: 10px 0;
+}
+
+#logo img {
+    height: 80px;
 }
 
 nav {
-    width: 540px;
+    width: 385px;
     height: 50px;
     float: right;
-    margin-top: 77px;
+    margin-top: 50px;
 }
 
 nav ul {
@@ -41,7 +49,7 @@ nav  a {
     color: #657EA7;
     font-size:18px;
     text-transform: uppercase;
-    padding:20px 15px 20px 15px;
+    padding:15px 10px;
 }
 
 nav a:hover {
@@ -51,13 +59,50 @@ nav a:hover {
 
 section {
     width: 100%;
-    height: 340px;
-    background-color: gray;
+    height: 245px;
+    background-color: #FFF;
+}
+
+section img {
+    max-height: 243px;
+}
+
+#banner, #container {
+    width: 770px;
+    height: 244px;
+    margin: 0 auto;
+    border-top:#c4cee0 solid 2px;
+    border-bottom: #c4cee0 solid 2px;
+}
+
+#banner img {
+    width: 770px;
+    margin-top: -8px;
+}
+
+#aviso {
+    border-top: none;
+}
+
+#img-container {
+    float: left;
+}
+
+#texto-container {
+    width: 60%;
+    float: right;
+}
+
+#texto-container h1 {
+    font-size: 18px;
+    color: #637ba9;
+    margin: 15px 0;
 }
 
 footer {
-    width: 100%;
-    height: 100px;
-    background-color: orange;
+    width: 770px;
+    height: 35px;
+    background-color: #c5cedf;
+    margin: 15px auto 0;
 }
  
