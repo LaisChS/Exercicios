@@ -7,16 +7,15 @@ body {
 }
 
 main {
-    width: 1024px;
+    width: 770px;
     height: 640px;
     margin: 0 auto;
     background-color: yellow;
 }
 
 header {
-    width: 770px;
-    height: 100px;
-    margin: 0 auto;
+    width: 100%;
+    height: 70px;
     background-image: url("../img/topo.jpg");
     background-repeat: repeat-x;
 }
@@ -38,10 +37,11 @@ ul {
 }
 
 ul a {
-    padding: 5px 15px;
+    padding: 5px 18px;
     text-decoration: none;
     color: #FFF;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 ul a:hover {
@@ -50,13 +50,18 @@ ul a:hover {
 
 section {
     width: 100%;
-    height: 245px;
+    height: 260px;
     background-color: grey;
+}
+
+#banner img {
+    width: 770px;
+    height: 250px;
 }
 
 footer {
     width: 770px;
     height: 35px;
-    margin: 0 auto;
+    margin: 15px auto 0;
     background-color: orange;
 }
