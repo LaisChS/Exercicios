@@ -1,0 +1,28 @@
+body {
+    background-color: red;
+}
+
+main {
+    width: 1024px;
+    height: 640px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+header {
+    width: 770px;
+    height: 100px;
+    background-color: green;
+}
+
+section {
+    width: 100%;
+    height: 245px;
+    background-color: grey;
+}
+
+footer {
+    width: 770px;
+    height: 35px;
+    background-color: orange;
+}
